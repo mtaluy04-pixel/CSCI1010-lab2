@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reef Roll: Plant Parent Weekend Slots</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bubbles" aria-hidden="true"></div>
+<main>
+  <h1>Reef Roll</h1>
+  <p class="sub">Can't decide how to spend the weekend? Pull the lever and let the tide pick. Hold any reel you love and spin the rest.</p>
+
+  <section class="machine" aria-label="Slot machine">
+    <div class="reels" id="reels"></div>
+    <button class="pull" id="pull">Pull the lever</button>
+  </section>
+
+  <section class="plan" aria-live="polite">
+    <h2>Your weekend</h2>
+    <div id="plan"><p class="empty">Nothing yet. Pull the lever to get a plan.</p></div>
+  </section>
+  <section class="lists">
+    <div class="box"><h2>Saved <small id="savedCount">0/3</small></h2><div id="saved"></div></div>
+    <div class="box"><h2>Recent spins</h2><div id="history"></div></div>
+  </section>
+  <footer>Tip: the sitter reel is the one people forget. Leave a note on who needs the brightest window.</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
